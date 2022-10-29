@@ -9,10 +9,8 @@
 [![Documentation Status](https://readthedocs.org/projects/outdpik/badge/?version=latest)](https://outdpik.readthedocs.io/en/latest/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-## What is it?
-Outdpik is an open source Python package that provides different methods for outlier detection. 
-It aims to be the fundamental high-level package for this purpose. 
-Additionally, it offers visualization methods for the outlier analysis.
+## Description?
+RFI is a python package designed to evaluate dataframes by extracting their most important variables in order to optimise model training.
 
 ## Main Features
 Here are just a few of the things that outdpik does well:
