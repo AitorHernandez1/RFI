@@ -2,7 +2,7 @@
 <img src="https://github.com/AitorHernandez1/RFI/blob/main/ad5494c8f35d4e3e8343b48ccb45afaa.png?raw=true" width="100">
 </h1><br>
 
-# outdpik: Fundamental toolkit for outlier analysis and visualization
+# RFI: Feature importance for regression and classification models
 
 [![PyPI Latest Release](https://img.shields.io/pypi/v/outdpik.svg)](https://pypi.org/project/outdpik/)
 [![PyPI License](https://img.shields.io/pypi/l/outdpik.svg)](license.txt)
