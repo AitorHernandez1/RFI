@@ -9,7 +9,7 @@
 [![Documentation Status](https://readthedocs.org/projects/outdpik/badge/?version=latest)](https://outdpik.readthedocs.io/en/latest/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-## Description?
+## Description
 RFI is a python package designed to evaluate dataframes by extracting their most important variables in order to optimise model training.
 
 ## Main Features
