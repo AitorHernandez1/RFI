@@ -12,13 +12,13 @@
 ## Description
 RFI is a python package designed to evaluate dataframes by extracting their most important variables in order to optimise model training.
 
-## Main Features
-Here are just a few of the things that outdpik does well:
+## Why RFI?
+Why use RFI instead of other variable selection techniques?
 
 - It supports numpy arrays and pandas dataframes
-- Multiple outlier detection techniques that can be combined
-- Powerful visualizations
-- Flexible at including one or more columns for the analysis
+- Optimization
+- Based on the Random Forest algorithm
+- The output is the final DF, once it is obtained, it only needs to be trained.
 
 ## Where to get it
 The source code is currently hosted on GitHub at:
