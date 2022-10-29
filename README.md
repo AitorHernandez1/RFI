@@ -4,9 +4,8 @@
 
 # RFI: Feature importance for regression and classification models
 
-[![PyPI Latest Release](https://img.shields.io/pypi/v/outdpik.svg)](https://pypi.org/project/outdpik/)
-[![PyPI License](https://img.shields.io/pypi/l/outdpik.svg)](license.txt)
-[![Package Status](https://img.shields.io/pypi/status/pandas.svg)](https://pypi.org/project/outdpik/)
+[![PyPI Latest Release](https://img.shields.io/pypi/v/outdpik.svg)](https://pypi.org/project/RFI/)
+[![Package Status](https://img.shields.io/pypi/status/pandas.svg)](https://pypi.org/project/RFI/)
 [![Documentation Status](https://readthedocs.org/projects/outdpik/badge/?version=latest)](https://outdpik.readthedocs.io/en/latest/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
