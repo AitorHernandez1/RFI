@@ -22,17 +22,17 @@ Why use RFI instead of other variable selection techniques?
 
 ## Where to get it
 The source code is currently hosted on GitHub at:
-https://github.com/DanielPuentee/outdpik
+https://github.com/AitorHernandez1/RFI
 
 Installer for the latest released version is available at the [Python
 Package Index (PyPI)](https://pypi.org/project/outdpik)
 
 ```sh
 # PyPI
-pip install outdpik
+pip install RFI
 ```
 
-## How to use outdpik
+## How to use rfi
 Examples of configuring and running outpdik:
 
 ```python
