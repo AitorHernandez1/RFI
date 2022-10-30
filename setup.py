@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
   name = 'RFI',         # How you named your package folder (MyLib)
   packages = ['RFI'],   # Chose the same as "name"
-  version = '0.1',      # Start with a small number and increase it with every change you make
+  version = '0.3',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Feature selections methods for classification and regression',   # Give a short description about your library
   author = 'Alejandro Santos and Aitor Hernandez',                   # Type in your name
@@ -14,9 +14,7 @@ setup(
   install_requires=[            # I get to this in a second
           'pandas',
           'sklearn',
-          'warnings',
           'numpy',
-          
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
