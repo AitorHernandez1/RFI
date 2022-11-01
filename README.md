@@ -2,7 +2,7 @@
 <img src="https://github.com/AitorHernandez1/RFI/blob/main/ad5494c8f35d4e3e8343b48ccb45afaa.png?raw=true" width="100">
 </h1><br>
 
-# RFI: Feature importance for regression and classification models
+# RFI: Importancia de características para modelos de regresión
 
 [![PyPI Latest Release](https://img.shields.io/pypi/v/outdpik.svg)](https://pypi.org/project/RFI/)
 [![Package Status](https://img.shields.io/pypi/status/pandas.svg)](https://pypi.org/project/RFI/)
@@ -10,40 +10,39 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Description
-RFI is a python package designed to evaluate dataframes by extracting their most important variables in order to optimise model training.
+RFI es un paquete de python diseñado para evaluar conjuntos de datos extrayendo sus variables más importantes con el fin de optimizar el entrenamiento del modelo.
 
-## Why RFI?
-Why use RFI instead of other variable selection techniques?
+## Por qué RFI?
+Por qué utilizar la RFI en lugar de otras técnicas de selección de variables?
 
-- It supports numpy arrays and pandas dataframes
-- Optimization
-- Based on the Random Forest algorithm
-- The output is the final DF, once it is obtained, it only needs to be trained.
+- Optimización
+- Basado en algoritmo de Random Forest
+- El resultado es un DF, una vez obtenido, solamente es necesario entrenarlo.
 
-## Where to get it
-The source code is currently hosted on GitHub at:
+## Donde descargarlo
+El código fuente está actualmente disponible en GitHub:
 https://github.com/AitorHernandez1/RFI
 
-Installer for the latest released version is available at the [Python
-Package Index (PyPI)](https://pypi.org/project/outdpik)
+El instalador de la última versión publicada está disponible en el [Python
+Package Index (PyPI)](https://pypi.org/project/RFI)
 
 ```sh
 # PyPI
 pip install RFI
 ```
 
-## How to use rfi
-Examples of configuring and running outpdik:
+## Cómo usar RFI
+Ejemplos de consifuración de RFIrfi:
 
 ```python
-import outpdik as outdp
-outdp = outdp()
+import RFI
+rfi = RFI()
 ```
 
-We proceed to detect outliers returning a dictionary of numeric features and the outliers instances:
+Le proporcionamos un DataFrame de pandas:
 
 ```python
-outliers_dict = outdp.outliers(df = df, cols = "all")
+importances = RFI.seleccion_modelo_regression(df)
 ```
 Plotting advantages:
 
