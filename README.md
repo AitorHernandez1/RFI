@@ -3,11 +3,8 @@
 </h1><br>
 
 # RFI: Importancia de características para modelos de regresión
-
-[![PyPI Latest Release](https://img.shields.io/pypi/v/outdpik.svg)](https://pypi.org/project/RFI/)
+![PyPI](https://img.shields.io/pypi/v/RFI)
 [![Package Status](https://img.shields.io/pypi/status/pandas.svg)](https://pypi.org/project/RFI/)
-[![Documentation Status](https://readthedocs.org/projects/outdpik/badge/?version=latest)](https://outdpik.readthedocs.io/en/latest/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Description
 RFI es un paquete de python diseñado para evaluar conjuntos de datos extrayendo sus variables más importantes con el fin de optimizar el entrenamiento del modelo.
