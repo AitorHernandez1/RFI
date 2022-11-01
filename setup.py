@@ -3,11 +3,11 @@ from distutils.core import setup
 setup(
   name = 'RFI',         # How you named your package folder (MyLib)
   packages = ['RFI'],   # Chose the same as "name"
-  version = '0.1.2',      # Start with a small number and increase it with every change you make
+  version = '0.1.3',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Feature selections methods for classification and regression',   # Give a short description about your library
   author = 'Alejandro Santos and Aitor Hernandez',                   # Type in your name
-  author_email = 'asaaantosv@gmail.com',      # Type in your E-Mail
+  author_email = 'aitor.hernanadez.1a@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/AitorHernandez1/RFI',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/AitorHernandez1/RFI/archive/refs/tags/RFI_0.1.tar.gz',    # I explain this later on
   keywords = ['feature', 'regression', 'classification'],   # Keywords that define your package best
