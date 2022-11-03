@@ -1,5 +1,9 @@
 
 from distutils.core import setup
+from pathlib import Path
+dir = Path(__file__).parent
+desc = (dir/ "README.md").read_text()
+
 setup(
   name = 'RFI',         # How you named your package folder (MyLib)
   packages = ['RFI'],   # Chose the same as "name"
@@ -11,6 +15,8 @@ setup(
   url = 'https://github.com/AitorHernandez1/RFI',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/AitorHernandez1/RFI/archive/refs/tags/2.0.tar.gz',    # I explain this later on
   keywords = ['feature', 'regression', 'classification'],   # Keywords that define your package best
+  long_description = desc,
+  long_description_content_type = "text/markdown",
   install_requires=[            # I get to this in a second
           'pandas',
           'sklearn',
