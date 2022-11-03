@@ -1,1 +1,1 @@
-from RFI import RFI
+from RFI.RFI import seleccion_modelo_regresion
