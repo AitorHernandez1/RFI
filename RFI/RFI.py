@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 warnings.filterwarnings('ignore')
 
 class RFI:
-    def __init__():
+    def __init__(self)-> None:
         pass
     def seleccion_modelo_regresion(df):
 
