@@ -8,6 +8,8 @@ from sklearn.model_selection import train_test_split
 warnings.filterwarnings('ignore')
 
 class RFI:
+    def __init__():
+        pass
     def seleccion_modelo_regresion(df):
 
         X = df.drop('target', axis=1)
@@ -43,16 +45,3 @@ class RFI:
             raise ValueError("La columna 'target' no debe contener valores nulos")
 
         return df
-
-
-
-
-    
-
-
-
-
-# if __name__ == "__main__":
-#     df = pd.read_csv("data.csv")
-#     df = RFI.seleccion_modelo_regresion(df)
-#     print(df.head())
