@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://github.com/AitorHernandez1/RFI/blob/main/ad5494c8f35d4e3e8343b48ccb45afaa.png?raw=true" width="100">
+<img src="https://github.com/AitorHernandez1/RFI/imgs/blob/main/ad5494c8f35d4e3e8343b48ccb45afaa.png?raw=true" width="100">
 </h1><br>
 
 # RFI: Importancia de características para modelos de regresión
