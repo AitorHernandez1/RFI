@@ -41,12 +41,7 @@ Le proporcionamos un DataFrame de pandas:
 ```python
 importances = RFI.seleccion_modelo_regression(df)
 ```
-Selección de variables más representativas:
-
-<h1 align="center">
-<img src="https://github.com/AitorHernandez1/RFI/blob/main/pre_df.png" width=200 alt="dataframe antes de selección de variables">
-<img src="https://github.com/AitorHernandez1/RFI/blob/main/post_df.png" width=100 alt="dataframe después de selección de variables">
-</h1><br>
+La librería devolverá el dataframe conteniendo las variables más importantes.
 
 ## Dependencies
 - [pandas - Proporciona estructuras de datos rápidas, flexibles y expresivas, diseñadas para que trabajar con datos "relacionales" o "etiquetados" sea fácil e intuitivo.](https://pandas.pydata.org/)
