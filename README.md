@@ -39,7 +39,7 @@ rfi = RFI()
 Le proporcionamos un DataFrame de pandas:
 
 ```python
-importances = RFI.seleccion_modelo_regression(df)
+df_importances = RFI.seleccion_modelo_regression(df)
 ```
 La librería devolverá el dataframe conteniendo las variables más importantes.
 
