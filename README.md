@@ -1,6 +1,6 @@
-<h1 align="center">
-<img src="https://github.com/AitorHernandez1/RFI/blob/main/imgs/ad5494c8f35d4e3e8343b48ccb45afaa.png?raw=true" width="100">
-</h1><br>
+
+![imagen](https://github.com/AitorHernandez1/RFI/blob/main/imgs/ad5494c8f35d4e3e8343b48ccb45afaa.png?raw=true "imagen")
+
 
 # RFI: Importancia de características para modelos de regresión
 ![PyPI](https://img.shields.io/pypi/v/RFI)
