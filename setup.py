@@ -13,7 +13,7 @@ setup(
   author = 'Alejandro Santos and Aitor Hernandez',                   # Type in your name
   author_email = 'aitor.hernanadez.1a@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/AitorHernandez1/RFI',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/AitorHernandez1/RFI/archive/refs/tags/2.0.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/AitorHernandez1/RFI/archive/refs/tags/3.0.tar.gz',    # I explain this later on
   keywords = ['feature', 'regression', 'classification'],   # Keywords that define your package best
   setup_requires = ["wheel"],
   long_description = desc,
